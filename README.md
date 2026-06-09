@@ -6,7 +6,7 @@
 ![MySQL](https://img.shields.io/badge/MySQL-8.0-orange?logo=mysql&logoColor=white)
 ![Power BI](https://img.shields.io/badge/Power%20BI-Dashboard-yellow?logo=powerbi&logoColor=white)
 ![pandas](https://img.shields.io/badge/pandas-EDA-150458?logo=pandas&logoColor=white)
-![Status](https://img.shields.io/badge/Status-In%20Progress-green)
+![Status](https://img.shields.io/badge/Status-Complete-brightgreen)
 
 ---
 
@@ -52,7 +52,7 @@ personal-finance-analysis/
 
 ## 📊 Dataset
 
-**Source:** [Kaggle — Personal Finance Dataset](https://www.kaggle.com/datasets/bukolafatunde/personal-finance)
+**Source:** [Kaggle — BudgetWise Personal Finance Dataset](https://www.kaggle.com/datasets/mohammedarfathr/budgetwise-personal-finance-dataset)
 
 | Field | Description |
 |---|---|
@@ -134,12 +134,12 @@ Open `powerbi/dashboard.pbix` in Power BI Desktop. If prompted, update the data 
 
 ## 💡 Key Insights
 
-> *(Updated as analysis progresses)*
-
-- **XX%** of income goes to fixed expenses (rent, utilities, subscriptions)
-- **Food & dining** is consistently the top variable expense category
-- Savings rate peaks in **Month X** and drops in **Month Y**
-- Identified **X transactions** as potential anomalies worth reviewing
+- **Rent and Food account for 52.46%** of all expenses — over half the budget goes to basic needs
+- **Global savings rate is -16.92%** — expenses exceeded income across the full period
+- **2023 was the only profitable year** with a net savings of +$3.47M; all other years ran a deficit
+- **Expenses grew faster than income in 2024** despite it being the highest-income year ($39.4M), resulting in a -$3.8M deficit
+- **Payment methods are evenly distributed** — Card (24%), Cash (24%), Bank Transfer (24%), UPI (23%)
+- Dataset originally contained **47 category variants** and **4 date formats** — cleaned to 14 normalized categories
 
 ---
 
